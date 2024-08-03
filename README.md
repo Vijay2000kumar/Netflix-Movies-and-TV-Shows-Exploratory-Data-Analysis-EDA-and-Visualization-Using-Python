@@ -1,18 +1,66 @@
-  Exploratory Data Analysis On Netflix-Movies & TV Shows Dataset
-Exploratory Data Analysis (EDA) on Netflix-Movies & TV Shows dataset is a process of analyzing and summarizing data to identify patterns, relationships, and insights. The Netflix-Movies & TV Shows dataset is a collection of data about the movies and TV shows available on Netflix, including information about the titles, genres, release year, ratings, cast, and more.
+# Netflix Movies and TV Shows — Exploratory Data Analysis (EDA) and Visualization Using Python
 
-The EDA process begins by cleaning and preparing the data for analysis, including removing any duplicates or missing values. Once the data is cleaned, it can be explored using a variety of statistical and visualization techniques to gain insights into the underlying patterns and relationships.
+This project focuses on analyzing the Netflix dataset to identify trends in consumer habits and preferences regarding the streaming service. The analysis involves exploring the dataset through visualizations and graphs using Python libraries, including matplotlib and seaborn.
 
-Some key techniques that may be used in EDA on the Netflix-Movies & TV Shows dataset include:
+## Data Summary
 
-Descriptive statistics - summary statistics such as mean, median, and standard deviation can be used to summarize key features of the dataset.
+Netflix is a popular entertainment service used by people around the world. This EDA explores the Netflix dataset through visualizations and graphs using Python libraries, matplotlib, and seaborn.
 
-Data visualization - charts, graphs, and other visual representations can be used to illustrate patterns and relationships in the data.
+We used TV Shows and Movies listed on the Netflix dataset from Kaggle. The dataset consists of TV Shows and Movies available on Netflix as of 2019. The dataset is collected from Flixable, a third-party Netflix search engine.
 
-Correlation analysis - this technique can be used to identify relationships between different variables in the dataset.
+### Column Descriptions
+- **show_id**: Unique identifier for each TV show.
+- **title**: Title of the TV show.
+- **director**: Director(s) of the TV show.
+- **cast**: Main cast or actors/actresses in the TV show.
+- **country**: Country or countries where the TV show was produced.
+- **date_added**: Date when the TV show was added to Netflix.
+- **release_year**: Year when the TV show was originally released.
+- **rating**: Content rating assigned to the TV show (e.g., G, PG, PG-13, R).
+- **duration**: Duration of the TV show (e.g., "1 Season", "2 Seasons").
+- **listed_in**: Categories or genres the TV show belongs to.
+- **description**: Brief description or synopsis of the TV show.
+- **type**: Indicates whether the entry is a TV show ("TV Show") or movie ("Movie").
 
-Text analysis - natural language processing techniques can be used to analyze the descriptions of the movies and TV shows and identify common themes and topics.
+## Exploratory Analysis and Visualization Questions
 
-The results of the EDA process can provide valuable insights into the Netflix-Movies & TV Shows dataset, such as identifying the most popular genres, the most highly-rated titles, and trends in viewer preferences over time. These insights can be used to inform business decisions related to content acquisition, production, and marketing.
+### 1. Netflix Content By Type
+- What percentage of Netflix titles are movies, and what percentage are TV shows?
 
-Overall, EDA on the Netflix-Movies & TV Shows dataset is a powerful tool for gaining insights into the world of streaming media and understanding viewer preferences and behavior.
+### 2. Amount of Content as a Function of Time
+- How has the amount of content added to Netflix changed over time?
+
+### 3. Countries by the Amount of Produced Content
+- Which countries produce the most content available on Netflix?
+
+### 4. Top Directors on Netflix
+- Who are the top directors on Netflix based on the number of titles they have directed?
+
+### 5. Top Genres on Netflix
+- What are the top genres available on Netflix?
+
+### 6. Top Actors on Netflix TV Shows
+- Who are the top actors in Netflix TV shows based on the number of titles?
+
+### 7. Top Actors on Netflix Movies
+- Who are the top actors in Netflix movies based on the number of titles?
+
+## Conclusions
+
+We have drawn many interesting inferences from the Netflix dataset. Here are some key points:
+- The majority of content on Netflix is movies.
+- Netflix started gaining traction after 2014, and since then, the amount of content added has been increasing significantly.
+- The United States is the country with the most produced content on Netflix.
+- The most popular director on Netflix, with the most titles, is Jan Suter.
+- International Movies is a genre that is mostly in Netflix.
+- The most popular actor on Netflix TV Shows based on the number of titles is Takahiro Sakurai.
+- The most popular actor on Netflix movies, based on the number of titles, is Anupam Kher.
+
+## References
+- [Netflix Dataset](https://github.com/Vijay2000kumar/Netflix-Movies-and-TV-Shows-Exploratory-Data-Analysis-EDA-and-Visualization-Using-Python/blob/main/netflix_titles_nov_2019.csv)
+
+---
+
+Feel free to contribute to this project by forking the repository and creating pull requests.
+
+Happy Analyzing!
